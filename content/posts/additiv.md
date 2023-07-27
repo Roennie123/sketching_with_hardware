@@ -3,7 +3,7 @@ title: "Labor: Additive Fertigung"
 date: 2023-02-28T16:57:42+01:00
 type: "post"
 tags: ["3D-Druck"]
-draft: true
+showTableOfContents: false
 ---
 
 ## Theorie

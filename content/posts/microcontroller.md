@@ -3,7 +3,7 @@ title: "Labor: Microcontroller"
 date: 2022-11-30T17:44:17+01:00
 type: "post"
 tags: ["arduino"]
-draft: true
+showTableOfContents: false
 ---
 
 Die letzten drei Labore handelten von Microcontrollern. Arduinos sind die mitunter bekanntesten Microcontroller, da sie "genormt" sind. Viele andere Hersteller halten sich an diese Normung. Mikrocontroller werden mit C programmiert (was garnicht so schwer ist wie man zuerst denkt, wenn man noch nie was mit C gemacht hat). Für die optimale Arbeitsumgebung haben wir uns eine Arduino IDE installiert. Darüber lassen sich die passenden Libaries zu den Bauteilen direkt suchen, installieren und einbinden. Ansonsten hat die IDE natürlich auch noch viele weitere Vorteile, auf die ich jetzt aber nicht eingehen möchte.

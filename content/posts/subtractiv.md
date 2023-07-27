@@ -3,7 +3,7 @@ title: "Labor: Subtraktive Fertigung"
 date: 2023-01-27T15:21:55+01:00
 type: "post"
 tags: ["lasercutting", "cnc", "lightburn"]
-draft: true
+showTableOfContents: false
 ---
 
 ## Theorie

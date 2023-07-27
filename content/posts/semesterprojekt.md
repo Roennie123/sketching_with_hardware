@@ -3,7 +3,7 @@ title: "Finales Projekt Sommersemester 2023"
 date: 2023-07-26T17:27:56+02:00
 type: "post"
 tags: ["walking tortoise"]
-draft: true
+showTableOfContents: false
 ---
 
 # Projektidee, Projektplan und Semesterverlauf

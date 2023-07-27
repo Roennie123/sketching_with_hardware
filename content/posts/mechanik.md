@@ -2,8 +2,8 @@
 title: "Labor: Mechanik"
 date: 2022-12-20T20:37:43+01:00
 type: "post"
-tags: []
-draft: true
+showTableOfContents: false
+
 ---
 
 Da es bei "Sketching with Hardware" vor allem darum geht aktive (im Besten Fall sogar inteaktive) Hardware zu erschaffen, werden wir uns heute der Bewegung von Dingen widmen. Besser ausgedrückt: der Mechanik.

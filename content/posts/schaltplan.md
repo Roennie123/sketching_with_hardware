@@ -3,7 +3,7 @@ title: "Labor: Schaltplan"
 date: 2022-11-15T17:47:41+01:00
 type: "post"
 tags: ["fritzing", "arduboy"]
-draft: true
+showTableOfContents: false
 ---
 
 Sehr wichtig im Bezug auf die Elektrotechnik (letzter Post), sind Schaltpläne.

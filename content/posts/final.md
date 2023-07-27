@@ -3,7 +3,7 @@ title: "Finale Abschlusspräsentation Wintersemester 2022/23"
 date: 2023-03-04T12:58:24+01:00
 type: "post"
 tags: ["arduboy"]
-draft: true
+showTableOfContents: false
 ---
 
 Wie bereits in vorherigen Blogposts erwähnt, sollten wir die in den Laboren erlernten Fähigkeiten in einem finalen Semesterprojekt einsetzen. Ich entschied mich für den Arduboy. Das ist eine Spielekonsole auf Grundlage eines Arduinos und Bibliotheken der Arduboy-Community (). Ich hatte mich für das Projekt aus diversen Gründen (Interesse, Nutzen, etc.) entschieden. Jedoch waren meine zwei Hauptintensionen vor allem ein Projekt zu wählen welches ich sicher in dem gegebenen Zeitrahmen nach meinen Wünschen fertig bekomme, und so viel Input wie möglich aus den Labs im Projekt zu verarbeiten. Also viel Verschiedenes auszuprobieren, um im großen Sommersemesterprojekt dann ein paar Anhaltpunkte zu haben was man wie umsetzen kann.

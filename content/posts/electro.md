@@ -3,7 +3,7 @@ title: "Labor: Elektrotechnik"
 date: 2022-11-09T18:48:35+01:00
 type: "post"
 tags: ["löten"]
-draft: true
+showTableOfContents: false
 ---
 
 Diesen Mittwoch ging es um Elektrotechnik. Aufgeteilt in zwei Einheiten, gab es einen theoretischen Einstieg in die Elektrotechnik und einen praktischen Teil, welcher ein Crashkurs in Löten und Messtechnik beinhaltete.

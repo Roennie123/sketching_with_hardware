@@ -3,7 +3,7 @@ title: "Walking Tortoise Nachbau Anleitung"
 date: 2023-07-27T09:25:38+02:00
 type: "post"
 tags: ["walking tortoise", "3D-Druck", "Blender", "Microcontroller"]
-draft: true
+showTableOfContents: false
 ---
 
 # Vorwort

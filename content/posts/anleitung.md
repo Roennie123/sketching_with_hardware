@@ -9,7 +9,9 @@ showTableOfContents: false
 # Vorwort
 
 In diesem Tutorial möchte ich euch Schritt für Schritt zeigen wie man sich ein sehr pflegeleichtes Haustier baut. Und zwar eine Schildkröte. :turtle:
+
 Die Schildkröte ist 3D-gedruckt und kann über eine Smartphoneapp und Bluetoothconnection gesteuert werden.
+
 Ich habe das Projekt im Rahmen des Kurses *Sketching with Hardware* der Universität Ulm gebaut.
 Gerne stelle ich dir alle nötigen Dateien und Arbeitsanweisungen zur Verfügung und ermutige dich es doch auch selbst zu auszuprobieren. :wink:
 
@@ -32,39 +34,51 @@ Je nachdem was dir bereits zur Verfügung steht und wo du benötigte Teile kaufs
     * ich habe einen Atmega Nano 328 benutzt
     * z.B. diesen hier *https://www.az-delivery.de/products/nano-v3-mit-ch340-arduino-kompatibel*
     * wenn du einen anderen benutzen möchtest musst du darauf achten dass genug Pins für die Motoren vorhanden sind und die Größe passt
+      
 * Bluetoothmodul
     * ich habe ein HC-05
     * *https://maker.pro/custom/tutorial/hc-05-bluetooth-transceiver-module-datasheet-highlights*
     * wenn du ein anderes nehmen möchtest informiere dich am besten über die Kompabilität mit deinem Microcontroller
+      
 * 8 Servomotoren
     * ich habe MG90S genutzt
     * *https://components101.com/motors/mg90s-metal-gear-servo-motor*
     * MG steht für Metal Gear :gear: und das war ausschlaggebend dafür dass die Schildkröte stabil ist, daher würde ich keine Servos mit Kunststoffgetrieben empfehlen
     * wird deine finale Schildkröte allerdings schwerer als Gramm, solltest du dich nach stärkeren Motoren umsehen
     * achte darauf dass pro Motor mindestens eine kleine und zwei größere Schräubchen, inklusive der Rotorblätter dabei sind
+      
 * Powerbank
     * ich habe eine mit 10.000 mA/h Leistung und einem Gewicht von 172 Gramm benutzt
     * diese hier von Bogseth *https://www.amazon.de/powerbank-led-anzeige-Ausgang-Externe-handyakkus/dp/B09JFX8VG1/ref=sr_1_19?keywords=runde%2Bpowerbank&qid=1686848431&sr=8-19&th=1*
     * wenn du eine andere nutzen möchtest achte darauf dass sie nicht zu schwer ist und dass sie von der Größe her passt, bzw. musst du dann das Inlay abändern
     * außerdem ist bei den von mir genutzten MG90S Servomotoren eine Leistung von mindestens 5.000 mA/h nötig
+      
 * PLA Filament
     * ich habe dieses Filament der Farbe Kaffee genutzt *https://filamentworld.de/shop/filament-3d-drucker/francofil-pla-kaffee-filament-1-75-mm/*
     * im Nachhinein hätte ich es sehr cool gefunden das Kaffee-Filament für Kopf, Schwanz, Beine und ein weiteres Filament der Farbe Bier für den Panzer zu nehmen (*https://filamentworld.de/shop/filament-3d-drucker/francofil-eco-pla-filament-bier-2-85-mm/*)
     * mir haben 750 Gramm gereicht (inklusive einem Fehldruck des Unterteils :D )
     * achte darauf dass der Durchmesser auch zu deinem Drucker passt
+      
 * Kathode
+  
 * Steckplatine
+  
 * USB Kabel
     * je nachdem welchen Output deine Powerbank hat
     * hab meins zerschnitten und daher ein altes etwas kaputtes genommen
+      
 * Kabel, Kabelschuhe und Steckhülsen
     * ganz grob geschätzt habe ich ca. 4 * 14 cm Kabel benötigt, da die Motoren ja bereits Kabel haben welche man nur noch kürzen muss
     * 28 Kabelschuhe und Hülsen
     * am besten besorgst du dir einen Kasten in dem alles schon drin ist
+      
 * Schrumpfschlauch
     * muss nicht sein, ist aber die smartere Arbeitsweise
+      
 * Lötzinn
+  
 * Zwei-Komponentenkleber
+  
 * 3 * 2 kleine Magnete
     * die Magnetaussparungen in meinem Modell passen perfekt zu bestimmten Magneten (einfach nachfragen bei Interesse)
 
@@ -73,12 +87,18 @@ Je nachdem was dir bereits zur Verfügung steht und wo du benötigte Teile kaufs
 * 3D-Drucker
     * habe für Kopf, Beine, Schwanz und Panterteile einen Ultimaker2+ genutzt
     * für Inlay und Servohalterungen einen Snapmaker
+      
 * Kabelzange
+  
 * Lötkolben
+  
 * kleiner Schraubendreher
+  
 * Breadboard und Jumperkabel zum Testen
+  
 * Smartphone
-    * mit meinem Arduino hat alles super funktioniert, habe jedoch gehört, dass das Bluetoothconnections über iOS Systeme Schwierigkeiten machen können
+    * mit meinem Android hat alles super funktioniert, habe jedoch gehört, dass das Bluetoothconnections über iOS Systeme Schwierigkeiten machen können
+      
 * einen sauberen Platz zum Arbeiten :wink:
 
 ![bauteile](nano.png)
